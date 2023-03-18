@@ -1,43 +1,145 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+
   <style>
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  table {
+  width: 100%;
+  }
+  div {
+  color: white;
+  }
+  div#fussbereich {
+  color: black;
+  }
+  div#content {
+  color: white;
+   padding-top: 30px;
+  }
   body{
-  background-color: cyan;
+  background-color: black;
   }
-    a:visited{
-    color: white;
-    }
-    a:unvisited{
-    color: yellow;
-    }
-  header{
-  background-color: yellow;
-    margin: -7px;
-	margin-bottom: 5px;
+  header {
+  z-index: 10;
+  position: fixed;
+  background-color: gray;
+    width: 100%;
+	top: 0;
+	left: 0;
   }
-    footer{
-    background-color: yellow;
-	margin: -7px;
-    }
+	footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: black;
+  text-align: center;
+}
+
   </style>
 <title>Meine erste Webseite online</title>
 </head>
 
 <body>
-  <header>
-    <img src="https://cdn-icons-png.flaticon.com/512/10069/10069201.png" alt="logo" width="50" height="50">
-    <center>
-    <p>Hier sehen Sie meine erste Website</p>
-    </center>
-  </header>
-  <center><h1>Online-Testlauf Nummero 1</h1></center>
-  
-<div id="textbereich">
- <p>Besuchen Sie <a href=https://rocketleague.tracker.network>TRN
- </a> um meine Statistiken in Rocket League zu sehen.<br> Einfach den Gamertag: Kaitagami in die Suchleiste eingeben.</p>
+  <header style="z-index:10">
+    <center><p><b>Meine erste Webseite online</b></p></center>  
+  </header>  
 
-</div><!-- Ende textbereich -->
+
+<div id="content" color="white">
+<center>
+  <h3>Hi!</h3>
+  <p>Willkommen auf meiner ersten Website. :D</p>
+  <p></p>
+  <h3>Rocket League</h3>
+  <p>Das ist ein Autofußball Spiel das ich sehr gerne spiele.<br>Hier ein paar Rocket League Esport Teams:</p>
+	</center>
+</div>
+<table border="0">
+<tr><td>
+<div>
+	<div>
+<img src="https://liquipedia.net/commons/images/thumb/4/49/Karmine_Corp_
+			darkmode_full.png/633px-Karmine_Corp_darkmode_full.png" width="100" height="100" alt="img" class="center">
+			</div>
+			<div>
+			<p align="center">
+        &middot; Karmine Corp
+		</p>
+    </div>
+</div></td>
+<td>
+<div>
+	<div>
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fggscore.com%2Fmedia%2Flogo%2Ft8601.png&f=1&nofb=
+1&ipt=10073e294232b57aa5492e0c647d1aec34df233c68356f458526dae4ee653b92&ipo=images" width="100" height="100" alt="img" class="center">
+			</div>
+			<div>
+			<p align="center">
+        &middot; G2 Esports
+		</p>
+    </div>
+</div></td>
+<td>
+<div>
+	<div>
+<img src="https://liquipedia.net/commons/images/thumb/b/ba/Gen.G_Esports_
+darkmode.png/80px-Gen.G_Esports_darkmode.png" width="130" height="100" alt="img" class="center">
+			</div>
+			<div>
+			<p align="center">
+        &middot; Gen.G
+		</p>
+    </div>
+</div></td>
+  </tr>
+ 
+ <tr><td>
+<div>
+	<div>
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcompanieslogo.com%2Fimg%2Forig%2FFAZE.D-2c39142b.png%3Ft
+%3D1659631633&f=1&nofb=1&ipt=ffc562844bda12a2444d84d8712627fbb9d59a22728528070131d206aa93d468&ipo=images" width="150" height="100" alt="img" class="center">
+			</div>
+			<div>
+			<p align="center">
+        &middot; FaZe Clan
+		</p>
+    </div>
+</div></td>
+<td>
+<div>
+	<div>
+<img src="https://liquipedia.net/commons/images/thumb/f/f9/Oxygen_Esports_2021_
+allmode.png/600px-Oxygen_Esports_2021_allmode.png" width="250" height="100" alt="img" class="center">
+			</div>
+			<div>
+			<p align="center">
+        &middot; Oxygen Esports
+		</p>
+    </div>
+</div></td>
+<td>
+<div>
+	<div>
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffiles.tips.gg%2Fstatic%2Fimage%2Fteams%2Fteam-bds
+-rl.png&f=1&nofb=1&ipt=aca6393c0bd215bccae1917aeaed6276a248d02d333773af53c71b9a31a06ffe&ipo=images" width="100" height="130" alt="img" class="center">
+			</div>
+			<div>
+			<p align="center">
+        &middot; Team BDS
+		</p>
+    </div>
+</div></td>
+  </tr>
+  </table>
   
   <footer>
     <div id="fussbereich">
